@@ -1,0 +1,23 @@
+.content {
+    background-color: #c0f760;
+    text-align: center;    
+    font-family: "Century Gothic";
+}
+
+#name {
+	font-size: 300%;
+	background-color: #e4ffbf;
+}
+
+#caption {
+	font-style: italic;
+}
+
+#intro {
+	color: #121f66;
+}
+
+#img_caption {
+	font-size: 80%;
+}
+
