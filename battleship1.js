@@ -568,17 +568,17 @@ function makeMove(e) {
 			
 			setTimeout(function() {
 				alert("You got a hit!");
-				if(opp.Alength==0 && opp.AisSunk.equals("t")){
+				if(opp.Alength==0 /*&& opp.AisSunk.equals("t")*/){
 					alert(player.name + " has sunk " + opp.name + "'s aircraft carrier!");
-					opp.AisSunk = "t";
+					//opp.AisSunk = "t";
 				}
-				else if(opp.Blength==0 && opp.BisSunk.equals("t")){
+				else if(opp.Blength==0 /*&& opp.BisSunk.equals("t")*/){
 					alert(player.name + " has sunk " + opp.name + "'s battleship!");
-					opp.BisSunk = "t";
+					//opp.BisSunk = "t";
 				}
-				else if(opp.Slength==0 && opp.SisSunk.equals("t")){
+				else if(opp.Slength==0 /*&& opp.SisSunk.equals("t")*/){
 					alert(player.name + " has sunk " + opp.name + "'s submarine!");
-					opp.SisSunk = "t";
+					//opp.SisSunk = "t";
 				}
 				
 				if(opp.Alength==0 && opp.Blength==0 && opp.Slength==0){
